@@ -60,7 +60,7 @@ public class Janken {
 				default:
 					System.out.println("I'll just take that as a no...");
 			}
-		} while(newGame);
+		} while(newGame == true);
 	}
 	
 	// I fucked up and this is my hot fix
