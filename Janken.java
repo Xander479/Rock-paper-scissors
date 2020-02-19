@@ -41,6 +41,7 @@ public class Janken {
 					break;
 				case 2:
 					System.out.println("You win!");
+					break;
 				default:
 					System.out.println("Please email contact@xander479.co.uk and tell me exactly what you input to see this message.");
 			}
@@ -56,11 +57,13 @@ public class Janken {
 					break;
 				case "n":
 					System.out.println("Okay, goodbye!");
+					newGame = false;
 					break;
 				default:
 					System.out.println("I'll just take that as a no...");
+					newGame = false;
 			}
-		} while(newGame == true);
+		} while(newGame);
 	}
 	
 	// I fucked up and this is my hot fix
